@@ -11,7 +11,8 @@ export default defineConfig({
       prod: 'https://coding.pasv.us/course',
       test: 'Hello World!',
       base: "https://uitestingplayground.com",
-      demoQA: "https://demoqa.com"
+      demoQA: "https://demoqa.com",
+      herokuapp: "https://the-internet.herokuapp.com",
 
     }
   },

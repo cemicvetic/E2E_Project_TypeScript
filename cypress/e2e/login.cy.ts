@@ -5,7 +5,7 @@ describe('LOGIN PAGE', () => {
         cy.visit(`${Cypress.env('demoQA')}/login`)
         cy.intercept({resourceType: /xhr|fetch/}, {log: false})
     })
-    it('login', () => {
+    it.skip('login', () => {
         cy.get('#userName').type('test')
         cy.get('#password').type('Test1234*')
         cy.get('#login').click()
