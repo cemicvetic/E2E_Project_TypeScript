@@ -1,9 +1,9 @@
-import{LoginPage} from "../../pages/Login";
+import { LoginPage } from '../../pages/Login'
 
 describe('LOGIN PAGE', () => {
     beforeEach(() => {
         cy.visit(`${Cypress.env('demoQA')}/login`)
-        cy.intercept({resourceType: /xhr|fetch/}, {log: false})
+        cy.intercept({ resourceType: /xhr|fetch/ }, { log: false })
     })
     it.skip('login', () => {
         cy.get('#userName').type('test')
@@ -15,5 +15,4 @@ describe('LOGIN PAGE', () => {
         LoginPage.submitButtonLogin()
         cy.contains('Log out')
     })
-
 })

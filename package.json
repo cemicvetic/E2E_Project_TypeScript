@@ -1,16 +1,18 @@
 {
-  "name": "e2e_project_typescript",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "open": "cypress open --e2e --browser chrome"
-  },
-  "keywords": [],
-  "author": "Svetlana Komarova",
-  "license": "ISC",
-  "devDependencies": {
-    "cypress": "^13.6.3",
-    "typescript": "^5.3.3"
-  }
+    "name": "e2e_project_typescript",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "open": "cypress open --e2e --browser chrome",
+        "prettier": "npx prettier . --write"
+    },
+    "keywords": [],
+    "author": "Svetlana Komarova",
+    "license": "ISC",
+    "devDependencies": {
+        "cypress": "^13.6.3",
+        "prettier": "3.2.5",
+        "typescript": "^5.3.3"
+    }
 }
