@@ -1,4 +1,4 @@
-import{ AlertPage} from '../../pages/Alert'
+import { AlertPage } from '../../pages/Alert'
 
 describe('ALERT', () => {
     beforeEach(() => {
@@ -6,9 +6,5 @@ describe('ALERT', () => {
     })
     it('Click for JS Alert', () => {
         AlertPage.jsAlert()
-
-
-
     })
 })
-
