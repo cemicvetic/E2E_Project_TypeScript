@@ -42,4 +42,4 @@ class Alert {
         cy.get(this.resultSelector).should('include.text', text)
     }
 }
-export const AlertPage = new Alert()
+export const AlertPage =     new Alert()
