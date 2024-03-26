@@ -1,4 +1,4 @@
-class Alert   {
+class Alert {
     private alertTextButton: string = 'Click for JS Alert'
     private buttonSelector: string = 'button'
     //private buttonPromptText: string = 'Click on JS Prompt'
