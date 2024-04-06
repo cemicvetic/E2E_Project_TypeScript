@@ -1,14 +1,14 @@
-import {IFrame} from "../../pages/Iframe";
+import { IFrame } from '../../pages/Iframe'
 
-describe('IFRAME', () =>{
-    beforeEach(()=> {
+describe('IFRAME', () => {
+    beforeEach(() => {
         IFrame.visit()
     })
-    beforeEach(()=>{
-        cy.intercept({ resourceType: /xhr|fetch/ }, { log: false });
+    beforeEach(() => {
+        cy.intercept({ resourceType: /xhr|fetch/ }, { log: false })
     })
 
-    it('test iframe', ()=> {
+    it('test iframe', () => {
         IFrame.getIframe()
     })
 })
