@@ -9,8 +9,14 @@ describe('BROKEN IMAGE', () => {
             .should('be.visible')
             .and((el) => {
                 img = el[0] as HTMLImageElement
-                expect(img.naturalHeight, `Image naturalHeight size is ${img.naturalHeight}`).to.eq(0)
-                expect(img.naturalWidth, `Image naturalWidth size is ${img.naturalWidth}`).to.eq(0)
+                expect(
+                    img.naturalHeight,
+                    `Image naturalHeight size is ${img.naturalHeight}`
+                ).to.eq(0)
+                expect(
+                    img.naturalWidth,
+                    `Image naturalWidth size is ${img.naturalWidth}`
+                ).to.eq(0)
             })
     })
     it('Verify that image is not broken', () => {
@@ -19,8 +25,14 @@ describe('BROKEN IMAGE', () => {
             .should('be.visible')
             .and((el) => {
                 img = el[0] as HTMLImageElement
-                expect(img.naturalHeight, `Image naturalHeight size is ${img.naturalHeight}`).to.eq(160)
-                expect(img.naturalWidth, `Image naturalWidth size is ${img.naturalWidth}`).to.eq(160)
+                expect(
+                    img.naturalHeight,
+                    `Image naturalHeight size is ${img.naturalHeight}`
+                ).to.eq(160)
+                expect(
+                    img.naturalWidth,
+                    `Image naturalWidth size is ${img.naturalWidth}`
+                ).to.eq(160)
             })
     })
     describe('BROKEN IMAGE', () => {
@@ -34,7 +46,10 @@ describe('BROKEN IMAGE', () => {
                 .should('be.visible')
                 .and((el) => {
                     img = el[0] as HTMLImageElement
-                    expect(img.naturalHeight, `Image naturalHeight size is ${img.naturalHeight}`).not.to.eq(0)
+                    expect(
+                        img.naturalHeight,
+                        `Image naturalHeight size is ${img.naturalHeight}`
+                    ).not.to.eq(0)
                 })
         })
     })
