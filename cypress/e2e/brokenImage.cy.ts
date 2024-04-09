@@ -1,7 +1,7 @@
 let img: HTMLImageElement
 describe('BROKEN IMAGE', () => {
     beforeEach(() => {
-        cy.visit(`${Cypress.env('herokuapp')}/broken_images`)
+        cy.visit(`${Cypress.env('herokuapp')}/ broken_images`)
     })
     it('Verify that image is broken', () => {
         cy.get('div.example img')
