@@ -11,7 +11,7 @@ describe('BROKEN IMAGE', () => {
                 img = el[0] as HTMLImageElement
                 expect(
                     img.naturalHeight,
-                    `Image naturalHeight size is ${img.naturalHeight}`
+                       `Image naturalHeight size is ${img.naturalHeight}`
                 ).to.eq(0)
                 expect(
                     img.naturalWidth,
