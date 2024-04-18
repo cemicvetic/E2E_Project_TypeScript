@@ -14,5 +14,10 @@
         "cypress": "^13.6.3",
         "prettier": "3.2.5",
         "typescript": "^5.3.3"
+    },
+    "dependencies": {
+        "cypress-mochawesome-reporter": "^3.8.2",
+        "i": "^0.3.7",
+        "npm": "^10.5.2"
     }
 }
