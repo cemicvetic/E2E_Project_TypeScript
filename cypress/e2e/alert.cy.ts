@@ -1,4 +1,4 @@
-import { AlertPage } from '../../pages/Alert'
+i  mport { AlertPage } from '../../pages/Alert'
 
 describe('ALERT', () => {
     beforeEach(() => {
