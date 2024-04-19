@@ -5,7 +5,7 @@ describe('ALERT', () => {
         cy.visit(`${Cypress.env('herokuapp')}/javascript_alerts`)
     })
     it('Click for JS Alert', () => {
-        AlertPage.jsAlert()
+        AlertPage.jsAlert(   )
     })
 
     it('Click for JS Confirm OK', () => {
