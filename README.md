@@ -1,4 +1,4 @@
-# E2E_Project_TypeScript
+# E2E_Project_TypeScript 🚀
 
 ## Overview
 This project is configured to run end-to-end tests using Cypress. It is set up with a CI/CD pipeline using GitHub Actions to automate the testing process on every push to the repository.
