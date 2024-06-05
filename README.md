@@ -10,5 +10,5 @@ This project is configured to run end-to-end tests using Cypress. It is set up w
 - `pages/`: Contains TypeScript files defining methods for page interactions used in tests.
 
 ## Running Tests
-npm run cypressTest
+npm run cypress
 
